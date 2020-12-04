@@ -4,6 +4,8 @@ Scrape image urls from a HTML website.
 
 It's using [PhantomJS](http://phantomjs.org) in the background to get all images including CSS backgrounds.
 
+based on get-image-urls repository. returning the size of the image!
+
 <!-- ## Installation -->
 
 <!-- ```
