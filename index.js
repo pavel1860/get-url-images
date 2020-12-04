@@ -45,8 +45,9 @@ function getImageUrls(url, callback) {
         if (callback) callback(error, null);
       }
       else {
-        resolve(images)
-        if (callback) callback(null, images);
+        const sortedImages = images.filter(a => a.size !== undefined).sort((a,b)=> b.size - a.size)
+        resolve(sortedImages)
+        if (callback) callback(null, sortedImages);
       }
     });
   })

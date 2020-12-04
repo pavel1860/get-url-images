@@ -4,11 +4,11 @@ Scrape image urls from a HTML website.
 
 It's using [PhantomJS](http://phantomjs.org) in the background to get all images including CSS backgrounds.
 
-## Installation
+<!-- ## Installation -->
 
-```
+<!-- ```
 npm install get-image-urls
-```
+``` -->
 
 ## Usage
 
